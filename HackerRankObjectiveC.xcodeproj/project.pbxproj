@@ -10,6 +10,7 @@
 		5F9AD7EB2371976100508290 /* HackerRankObjectiveC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9AD7E12371976000508290 /* HackerRankObjectiveC.framework */; };
 		5F9AD7F02371976100508290 /* HackerRankObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD7EF2371976100508290 /* HackerRankObjectiveCTests.m */; };
 		5F9AD7F22371976100508290 /* HackerRankObjectiveC.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9AD7E42371976000508290 /* HackerRankObjectiveC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F9AD7FC2371981800508290 /* Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD7FB2371981800508290 /* Encryption.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		5F9AD7EA2371976100508290 /* HackerRankObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerRankObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9AD7EF2371976100508290 /* HackerRankObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerRankObjectiveCTests.m; sourceTree = "<group>"; };
 		5F9AD7F12371976100508290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F9AD7FB2371981800508290 /* Encryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Encryption.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				5F9AD7EF2371976100508290 /* HackerRankObjectiveCTests.m */,
+				5F9AD7FB2371981800508290 /* Encryption.m */,
 				5F9AD7F12371976100508290 /* Info.plist */,
 			);
 			path = HackerRankObjectiveCTests;
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F9AD7FC2371981800508290 /* Encryption.m in Sources */,
 				5F9AD7F02371976100508290 /* HackerRankObjectiveCTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
