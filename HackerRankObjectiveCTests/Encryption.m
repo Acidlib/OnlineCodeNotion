@@ -6,6 +6,8 @@
 //  Copyright © 2019 Yi-Ling Wu. All rights reserved.
 //
 
+// link: https://www.hackerrank.com/challenges/encryption/problem
+
 #import <XCTest/XCTest.h>
 #import <Foundation/Foundation.h>
 
