@@ -11,6 +11,8 @@
 		5F9AD7F02371976100508290 /* HackerRankObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD7EF2371976100508290 /* HackerRankObjectiveCTests.m */; };
 		5F9AD7F22371976100508290 /* HackerRankObjectiveC.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9AD7E42371976000508290 /* HackerRankObjectiveC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F9AD7FC2371981800508290 /* Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD7FB2371981800508290 /* Encryption.m */; };
+		5F9AD8022373082C00508290 /* CountSemiprimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD8012373082C00508290 /* CountSemiprimes.m */; };
+		5F9AD805237406E800508290 /* SemiPrimesSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD804237406E800508290 /* SemiPrimesSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,9 @@
 		5F9AD7EF2371976100508290 /* HackerRankObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerRankObjectiveCTests.m; sourceTree = "<group>"; };
 		5F9AD7F12371976100508290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F9AD7FB2371981800508290 /* Encryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Encryption.m; sourceTree = "<group>"; };
+		5F9AD8012373082C00508290 /* CountSemiprimes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountSemiprimes.m; sourceTree = "<group>"; };
+		5F9AD803237406E800508290 /* HackerRankObjectiveCTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackerRankObjectiveCTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		5F9AD804237406E800508290 /* SemiPrimesSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiPrimesSwift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 				5F9AD7E32371976000508290 /* HackerRankObjectiveC */,
 				5F9AD7EE2371976100508290 /* HackerRankObjectiveCTests */,
 				5F9AD7E22371976000508290 /* Products */,
+				5F9AD803237406E800508290 /* HackerRankObjectiveCTests-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +90,8 @@
 			children = (
 				5F9AD7EF2371976100508290 /* HackerRankObjectiveCTests.m */,
 				5F9AD7FB2371981800508290 /* Encryption.m */,
+				5F9AD8012373082C00508290 /* CountSemiprimes.m */,
+				5F9AD804237406E800508290 /* SemiPrimesSwift.swift */,
 				5F9AD7F12371976100508290 /* Info.plist */,
 			);
 			path = HackerRankObjectiveCTests;
@@ -153,6 +161,7 @@
 					};
 					5F9AD7E92371976100508290 = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 				};
 			};
@@ -206,6 +215,8 @@
 			files = (
 				5F9AD7FC2371981800508290 /* Encryption.m in Sources */,
 				5F9AD7F02371976100508290 /* HackerRankObjectiveCTests.m in Sources */,
+				5F9AD8022373082C00508290 /* CountSemiprimes.m in Sources */,
+				5F9AD805237406E800508290 /* SemiPrimesSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +396,7 @@
 		5F9AD7F92371976100508290 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8P3F3456KH;
 				INFOPLIST_FILE = HackerRankObjectiveCTests/Info.plist;
@@ -395,6 +407,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.yiling.HackerRankObjectiveCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HackerRankObjectiveCTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -402,6 +417,7 @@
 		5F9AD7FA2371976100508290 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8P3F3456KH;
 				INFOPLIST_FILE = HackerRankObjectiveCTests/Info.plist;
@@ -412,6 +428,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.yiling.HackerRankObjectiveCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HackerRankObjectiveCTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
