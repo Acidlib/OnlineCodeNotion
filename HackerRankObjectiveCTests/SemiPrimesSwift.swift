@@ -9,7 +9,7 @@
 import XCTest
 
 class SemiPrimesSwift: XCTestCase {
-
+    var primes: [Int] = []
     override func setUp() {
     }
 
@@ -34,30 +34,37 @@ class SemiPrimesSwift: XCTestCase {
     }
 
     func findingPrimesArray(min: Int, max: Int) -> ([Int]) {
-        var primes: [Int] = []
-        for candidate in 2...max {
-            var isCandidatePrime: Bool = true
-            for i in 2..<candidate {
-                if candidate % i == 0 {
-                    isCandidatePrime = false
-                    break
+        let lb = primes.last ?? 2
+        if lb < max {
+            for candidate in lb...max {
+                var isCandidatePrime: Bool = true
+                for i in 2..<candidate {
+                    if candidate % i == 0 {
+                        isCandidatePrime = false
+                        break
+                    }
                 }
-            }
-            
-            if isCandidatePrime && !primes.contains(candidate) {
-                primes.append(candidate)
+                
+                if isCandidatePrime && !primes.contains(candidate) {
+                    primes.append(candidate)
+                }
             }
         }
         
         var semiPrimes: [Int] = []
         // get the SemiPrimes Array
-        for i in 0..<primes.count {
-            for j in 0..<primes.count {
+        var i = 0
+        while i < primes.count && primes[i] <= max {
+            var j = 0
+            while j < primes.count && primes[j] <= max {
                 let semiCandidate = primes[i] * primes[j]
+                if semiCandidate > max { j = primes.count }
                 if semiCandidate >= min && semiCandidate <= max && !semiPrimes.contains(semiCandidate) {
                     semiPrimes.append(semiCandidate)
                 }
+                j += 1
             }
+            i += 1
         }
         return semiPrimes
         
