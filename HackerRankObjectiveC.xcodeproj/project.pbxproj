@@ -10,6 +10,7 @@
 		5F3185252377E35E00B473C1 /* Leetcode_223_RectangleArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3185242377E35E00B473C1 /* Leetcode_223_RectangleArea.swift */; };
 		5F3185272378003A00B473C1 /* Leetcode_060_PermutationSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3185262378003A00B473C1 /* Leetcode_060_PermutationSequence.swift */; };
 		5F3185312378584100B473C1 /* Leetcode_002_twoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3185302378584100B473C1 /* Leetcode_002_twoNumbers.swift */; };
+		5F3185332378807B00B473C1 /* Leetcode_003_Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3185322378807B00B473C1 /* Leetcode_003_Substring.swift */; };
 		5F9AD7EB2371976100508290 /* HackerRankObjectiveC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9AD7E12371976000508290 /* HackerRankObjectiveC.framework */; };
 		5F9AD7F02371976100508290 /* HackerRankObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD7EF2371976100508290 /* HackerRankObjectiveCTests.m */; };
 		5F9AD7F22371976100508290 /* HackerRankObjectiveC.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9AD7E42371976000508290 /* HackerRankObjectiveC.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,6 +33,7 @@
 		5F3185242377E35E00B473C1 /* Leetcode_223_RectangleArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_223_RectangleArea.swift; sourceTree = "<group>"; };
 		5F3185262378003A00B473C1 /* Leetcode_060_PermutationSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_060_PermutationSequence.swift; sourceTree = "<group>"; };
 		5F3185302378584100B473C1 /* Leetcode_002_twoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_002_twoNumbers.swift; sourceTree = "<group>"; };
+		5F3185322378807B00B473C1 /* Leetcode_003_Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_003_Substring.swift; sourceTree = "<group>"; };
 		5F9AD7E12371976000508290 /* HackerRankObjectiveC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HackerRankObjectiveC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9AD7E42371976000508290 /* HackerRankObjectiveC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackerRankObjectiveC.h; sourceTree = "<group>"; };
 		5F9AD7E52371976000508290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				5F3185242377E35E00B473C1 /* Leetcode_223_RectangleArea.swift */,
 				5F3185262378003A00B473C1 /* Leetcode_060_PermutationSequence.swift */,
 				5F3185302378584100B473C1 /* Leetcode_002_twoNumbers.swift */,
+				5F3185322378807B00B473C1 /* Leetcode_003_Substring.swift */,
 				5F9AD7F12371976100508290 /* Info.plist */,
 			);
 			path = HackerRankObjectiveCTests;
@@ -228,6 +231,7 @@
 				5F3185272378003A00B473C1 /* Leetcode_060_PermutationSequence.swift in Sources */,
 				5F9AD7F02371976100508290 /* HackerRankObjectiveCTests.m in Sources */,
 				5F9AD8022373082C00508290 /* CountSemiprimes.m in Sources */,
+				5F3185332378807B00B473C1 /* Leetcode_003_Substring.swift in Sources */,
 				5F9AD805237406E800508290 /* SemiPrimesSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
