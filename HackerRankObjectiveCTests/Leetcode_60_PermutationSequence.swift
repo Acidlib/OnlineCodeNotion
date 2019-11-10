@@ -42,7 +42,7 @@ private class Solution {
         for i in 0..<n {
             let fac = factorial(n - i)
             primerK = primerK % fac
-            var idx = Int(( Double(primerK) / Double(fac/(n-i)) ))
+            var idx = Int( Double(primerK) / Double(fac/(n-i)) )
             if idx < 0 { idx = 0 }
             outputString = "\(outputString)\(String(numberArr[idx]))"
             numberArr.remove(at: idx)
