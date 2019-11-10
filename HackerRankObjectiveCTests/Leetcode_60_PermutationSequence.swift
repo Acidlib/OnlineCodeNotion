@@ -17,12 +17,46 @@ class Leetcode_60_PermutationSequence: XCTestCase {
     }
     
     func testComputeArea() {
+        let solution = Solution()
+
+        var result = solution.getPermutation(2, 2)
+        XCTAssertTrue(result == "21")
         
+        result = solution.getPermutation(4, 9)
+        XCTAssertTrue(result == "2314")
+        
+        result = solution.getPermutation(3, 3)
+        XCTAssertTrue(result == "213")
+        
+
     }
 }
 
-class Solution {
+private class Solution {
+    var primerK: Int = 0
+    var numberArr: [Int] = []
     func getPermutation(_ n: Int, _ k: Int) -> String {
-        
+        var outputString: String = ""
+        numberArr = Array(1...n)
+        primerK = k - 1
+        for i in 0..<n {
+            let fac = factorial(n - i)
+            primerK = primerK % fac
+            var idx = Int(( Double(primerK) / Double(fac/(n-i)) ))
+            if idx < 0 { idx = 0 }
+            outputString = "\(outputString)\(String(numberArr[idx]))"
+            numberArr.remove(at: idx)
+        }
+        return outputString
+    }
+    
+    func factorial(_ n: Int) -> Int {
+      var n = n
+      var result = 1
+      while n > 1 {
+        result *= n
+        n -= 1
+      }
+      return result
     }
 }

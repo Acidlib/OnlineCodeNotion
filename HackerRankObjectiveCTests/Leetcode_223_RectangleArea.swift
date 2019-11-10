@@ -36,7 +36,7 @@ class Leetcode_223_RectangleArea: XCTestCase {
     }
 }
 
-class Solution {
+private class Solution {
     func computeArea(_ A: Int, _ B: Int, _ C: Int, _ D: Int, _ E: Int, _ F: Int, _ G: Int, _ H: Int) -> Int {
         var intercept: Int = 0
         if A > G || C < E || B > H || F > D {
