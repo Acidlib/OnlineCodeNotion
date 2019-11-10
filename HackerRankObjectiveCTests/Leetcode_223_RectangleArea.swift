@@ -8,7 +8,7 @@
 
 import XCTest
 
-class _23_leetcode_rectangle_area: XCTestCase {
+class Leetcode_223_RectangleArea: XCTestCase {
 
     override func setUp() {
     }
