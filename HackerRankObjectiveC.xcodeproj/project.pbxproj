@@ -15,6 +15,8 @@
 		5F318539237882EC00B473C1 /* Leetcode_701_insertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F318538237882EC00B473C1 /* Leetcode_701_insertBinaryTree.swift */; };
 		5F31853B237883A900B473C1 /* Leetcode_Demo_G_moutainArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F31853A237883A900B473C1 /* Leetcode_Demo_G_moutainArray.swift */; };
 		5F31853D2378870A00B473C1 /* Codility_R_demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F31853C2378870A00B473C1 /* Codility_R_demo.swift */; };
+		5F31853F2378F1C000B473C1 /* Codility_R_test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F31853E2378F1C000B473C1 /* Codility_R_test1.swift */; };
+		5F3185412378F1CC00B473C1 /* Codility_R_test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3185402378F1CC00B473C1 /* Codility_R_test2.swift */; };
 		5F9AD7EB2371976100508290 /* HackerRankObjectiveC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9AD7E12371976000508290 /* HackerRankObjectiveC.framework */; };
 		5F9AD7F02371976100508290 /* HackerRankObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD7EF2371976100508290 /* HackerRankObjectiveCTests.m */; };
 		5F9AD7F22371976100508290 /* HackerRankObjectiveC.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9AD7E42371976000508290 /* HackerRankObjectiveC.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,6 +44,8 @@
 		5F318538237882EC00B473C1 /* Leetcode_701_insertBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_701_insertBinaryTree.swift; sourceTree = "<group>"; };
 		5F31853A237883A900B473C1 /* Leetcode_Demo_G_moutainArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_Demo_G_moutainArray.swift; sourceTree = "<group>"; };
 		5F31853C2378870A00B473C1 /* Codility_R_demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codility_R_demo.swift; sourceTree = "<group>"; };
+		5F31853E2378F1C000B473C1 /* Codility_R_test1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codility_R_test1.swift; sourceTree = "<group>"; };
+		5F3185402378F1CC00B473C1 /* Codility_R_test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codility_R_test2.swift; sourceTree = "<group>"; };
 		5F9AD7E12371976000508290 /* HackerRankObjectiveC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HackerRankObjectiveC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9AD7E42371976000508290 /* HackerRankObjectiveC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackerRankObjectiveC.h; sourceTree = "<group>"; };
 		5F9AD7E52371976000508290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				5F9AD7EF2371976100508290 /* HackerRankObjectiveCTests.m */,
 				5F9AD7FB2371981800508290 /* Encryption.m */,
 				5F31853C2378870A00B473C1 /* Codility_R_demo.swift */,
+				5F31853E2378F1C000B473C1 /* Codility_R_test1.swift */,
+				5F3185402378F1CC00B473C1 /* Codility_R_test2.swift */,
 				5F9AD8012373082C00508290 /* CountSemiprimes.m */,
 				5F9AD804237406E800508290 /* SemiPrimesSwift.swift */,
 				5F3185242377E35E00B473C1 /* Leetcode_223_RectangleArea.swift */,
@@ -237,12 +243,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3185412378F1CC00B473C1 /* Codility_R_test2.swift in Sources */,
 				5F3185312378584100B473C1 /* Leetcode_002_twoNumbers.swift in Sources */,
 				5F9AD7FC2371981800508290 /* Encryption.m in Sources */,
 				5F31853B237883A900B473C1 /* Leetcode_Demo_G_moutainArray.swift in Sources */,
 				5F3185252377E35E00B473C1 /* Leetcode_223_RectangleArea.swift in Sources */,
 				5F3185272378003A00B473C1 /* Leetcode_060_PermutationSequence.swift in Sources */,
 				5F9AD7F02371976100508290 /* HackerRankObjectiveCTests.m in Sources */,
+				5F31853F2378F1C000B473C1 /* Codility_R_test1.swift in Sources */,
 				5F9AD8022373082C00508290 /* CountSemiprimes.m in Sources */,
 				5F3185332378807B00B473C1 /* Leetcode_003_Substring.swift in Sources */,
 				5F9AD805237406E800508290 /* SemiPrimesSwift.swift in Sources */,
