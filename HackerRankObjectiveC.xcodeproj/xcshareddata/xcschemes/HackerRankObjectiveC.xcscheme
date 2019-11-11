@@ -37,6 +37,11 @@
                BlueprintName = "HackerRankObjectiveCTests"
                ReferencedContainer = "container:HackerRankObjectiveC.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "Codility_">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
    </TestAction>

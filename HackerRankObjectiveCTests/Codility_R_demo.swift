@@ -1,5 +1,5 @@
 //
-//  Codility_.swift
+//  Codility_R_demo.swift
 //  HackerRankObjectiveCTests
 //
 //  Created by Yi-Ling Wu on 2019/11/11.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Codility_: XCTestCase {
+class Codility_R_demo: XCTestCase {
 
     override func setUp() {
     }
