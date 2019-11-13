@@ -23,6 +23,7 @@
 		5F9AD8022373082C00508290 /* CountSemiprimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD8012373082C00508290 /* CountSemiprimes.m */; };
 		5F9AD805237406E800508290 /* SemiPrimesSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD804237406E800508290 /* SemiPrimesSwift.swift */; };
 		5FA908CB237BBD8F00D2FDEB /* codility_sn_demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA908CA237BBD8F00D2FDEB /* codility_sn_demo.swift */; };
+		5FA908CD237BC0AD00D2FDEB /* demotest_R.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA908CC237BC0AD00D2FDEB /* demotest_R.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		5F9AD803237406E800508290 /* HackerRankObjectiveCTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackerRankObjectiveCTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		5F9AD804237406E800508290 /* SemiPrimesSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiPrimesSwift.swift; sourceTree = "<group>"; };
 		5FA908CA237BBD8F00D2FDEB /* codility_sn_demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codility_sn_demo.swift; sourceTree = "<group>"; };
+		5FA908CC237BC0AD00D2FDEB /* demotest_R.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demotest_R.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +114,14 @@
 				5F9AD7FB2371981800508290 /* Encryption.m */,
 				5FA908CA237BBD8F00D2FDEB /* codility_sn_demo.swift */,
 				5F31853C2378870A00B473C1 /* Codility_R_demo.swift */,
-				5F31853E2378F1C000B473C1 /* Leetcode_587_R_erectFence.swift */,
+				5FA908CC237BC0AD00D2FDEB /* demotest_R.swift */,
 				5F9AD8012373082C00508290 /* CountSemiprimes.m */,
 				5F9AD804237406E800508290 /* SemiPrimesSwift.swift */,
 				5F3185242377E35E00B473C1 /* Leetcode_223_RectangleArea.swift */,
 				5F3185262378003A00B473C1 /* Leetcode_060_PermutationSequence.swift */,
 				5F3185302378584100B473C1 /* Leetcode_002_twoNumbers.swift */,
 				5F3185322378807B00B473C1 /* Leetcode_003_Substring.swift */,
+				5F31853E2378F1C000B473C1 /* Leetcode_587_R_erectFence.swift */,
 				5F3185362378825500B473C1 /* Leetcode_683_bulbs.swift */,
 				5F318538237882EC00B473C1 /* Leetcode_701_insertBinaryTree.swift */,
 				5F31853A237883A900B473C1 /* Leetcode_Demo_G_moutainArray.swift */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FA908CB237BBD8F00D2FDEB /* codility_sn_demo.swift in Sources */,
+				5FA908CD237BC0AD00D2FDEB /* demotest_R.swift in Sources */,
 				5F3185312378584100B473C1 /* Leetcode_002_twoNumbers.swift in Sources */,
 				5F9AD7FC2371981800508290 /* Encryption.m in Sources */,
 				5F31853B237883A900B473C1 /* Leetcode_Demo_G_moutainArray.swift in Sources */,
