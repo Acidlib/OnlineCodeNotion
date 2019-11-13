@@ -1,5 +1,5 @@
 //
-//  demotest_R.swift
+//  R_demotest_round1.swift
 //  HackerRankObjectiveCTests
 //
 //  Created by Yi-Ling Wu on 2019/11/13.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class demotest_R: XCTestCase {
+class R_demotest_round1: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

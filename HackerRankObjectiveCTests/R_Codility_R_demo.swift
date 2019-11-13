@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Codility_R_demo: XCTestCase {
+class R_Codility_R_demo: XCTestCase {
 
     override func setUp() {
     }

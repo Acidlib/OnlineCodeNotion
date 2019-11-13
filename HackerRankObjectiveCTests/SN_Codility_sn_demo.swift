@@ -8,7 +8,7 @@
 
 import XCTest
 
-class codility_sn_demo: XCTestCase {
+class SN_Codility_sn_demo: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
