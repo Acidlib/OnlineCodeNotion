@@ -23,54 +23,18 @@ class codility_sn_demo: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
-    public func solution(_ A : inout [Int]) -> Int {
-        let i = 1
-        for elem in A {
-            if elem == i {
-                i ++
-            }
-        }
-    }
-    
-public func solution(_ A: [Int]) -> Int {
-    if nums.count == 0 { return 1}
-    
-    for i in 0...A.count {
-        if i != 0 && nums.contains(i) == false {
-            return i
-        }
-        if i == nums.count {
-            return nums.count + 1
-        }
-    }
-    
-    return 1
-}
-    
-    public int firstMissingPositive(int[] nums) {
-        int n = nums.length, p = 0;
-        if (n == 0) return 1;
+    public func solution(_ A: [Int]) -> Int {
+        if A.count == 0 { return 1}
         
-        while (p < n) {
-            // add nums[p] into set, swap until nums[p] in position (using 1-index)
-            if (nums[p] >= 0 && nums[p] < n && nums[nums[p]] != nums[p]) {
-                swap(nums, nums[p], p);
-            } else {
-                p++;
+        for i in 0...A.count {
+            if i != 0 && A.contains(i) == false {
+                return i
+            }
+            if i == A.count {
+                return A.count + 1
             }
         }
-        for (int i = 1; i < n; i++) {
-            // traverse and find the first missing in the set
-            if (nums[i] != i) return i;
-        }
-        // check nums[0] in case the last element was swapped here
-        return nums[0] == n ? n + 1 : n;
+        
+        return 1
     }
-    
-    public void swap(int[] nums, int a, int b) {
-        int t = nums[a];
-        nums[a] = nums[b];
-        nums[b] = t;
-    }
-
 }
