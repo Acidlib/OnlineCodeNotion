@@ -24,6 +24,7 @@
 		5FA908CB237BBD8F00D2FDEB /* SN_Codility_sn_demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA908CA237BBD8F00D2FDEB /* SN_Codility_sn_demo.swift */; };
 		5FA908CD237BC0AD00D2FDEB /* R_demotest_round1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA908CC237BC0AD00D2FDEB /* R_demotest_round1.swift */; };
 		5FA908CF237BD3E400D2FDEB /* SN_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA908CE237BD3E400D2FDEB /* SN_01.swift */; };
+		5FA908D3237BE59900D2FDEB /* SN_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA908D2237BE59900D2FDEB /* SN_02.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		5FA908CA237BBD8F00D2FDEB /* SN_Codility_sn_demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SN_Codility_sn_demo.swift; sourceTree = "<group>"; };
 		5FA908CC237BC0AD00D2FDEB /* R_demotest_round1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_demotest_round1.swift; sourceTree = "<group>"; };
 		5FA908CE237BD3E400D2FDEB /* SN_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SN_01.swift; sourceTree = "<group>"; };
+		5FA908D2237BE59900D2FDEB /* SN_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SN_02.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				5FA908CE237BD3E400D2FDEB /* SN_01.swift */,
+				5FA908D2237BE59900D2FDEB /* SN_02.swift */,
 				5FA908CA237BBD8F00D2FDEB /* SN_Codility_sn_demo.swift */,
 				5F31853C2378870A00B473C1 /* R_Codility_R_demo.swift */,
 				5FA908CC237BC0AD00D2FDEB /* R_demotest_round1.swift */,
@@ -253,6 +256,7 @@
 				5F9AD7FC2371981800508290 /* HackerRank_Encryption.m in Sources */,
 				5F31853B237883A900B473C1 /* Leetcode_Demo_G_moutainArray.swift in Sources */,
 				5F3185252377E35E00B473C1 /* Leetcode_223_RectangleArea.swift in Sources */,
+				5FA908D3237BE59900D2FDEB /* SN_02.swift in Sources */,
 				5F3185272378003A00B473C1 /* Leetcode_060_PermutationSequence.swift in Sources */,
 				5F31853F2378F1C000B473C1 /* Leetcode_587_R_erectFence.swift in Sources */,
 				5F9AD8022373082C00508290 /* Codility_CountSemiprimes.m in Sources */,
