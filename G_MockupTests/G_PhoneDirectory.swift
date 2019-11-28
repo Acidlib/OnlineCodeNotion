@@ -50,12 +50,10 @@ class G_PhoneDirectory: XCTestCase {
     
     func testPhoneDirectory() {
         let solution = PhoneDirectory(1)
-        var result = solution.check(0)
-        let result2 = solution.get()
-        result = solution.check(0)
-        let result3 = solution.get()
-        print("")
-        
+        XCTAssertTrue(solution.check(0) == true)
+        XCTAssertTrue(solution.get() == 0)
+        XCTAssertTrue(solution.check(0) == false)
+        XCTAssertTrue(solution.get() == -1)
     }
 }
 
