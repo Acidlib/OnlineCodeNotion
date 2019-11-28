@@ -23,7 +23,7 @@ class G_Reorder_array: XCTestCase {
     func testWiggleSort() {
         let solution = Solution()
         var nums = [3,5,2,1,6,4]
-        var result = solution.heapSort(&nums)
+        solution.heapSort(&nums)
         XCTAssertTrue(nums == [1,2,3,4,5,6])
     }
 }
