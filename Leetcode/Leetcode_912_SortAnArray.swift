@@ -189,8 +189,8 @@ private class SolutionHeapSort {
 }
 
 
-//Runtime: 172 ms, faster than 80.45% of Swift online submissions for Sort an Array.
-//Memory Usage: 23.8 MB, less than 20.00% of Swift online submissions for Sort an Array.
+// Runtime: 172 ms, faster than 80.45% of Swift online submissions for Sort an Array.
+// Memory Usage: 23.8 MB, less than 20.00% of Swift online submissions for Sort an Array.
 private class SolutionQuickSort {
     func sortArray(_ nums: [Int]) -> [Int] {
         var nums = nums
