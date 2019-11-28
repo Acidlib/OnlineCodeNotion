@@ -22,6 +22,20 @@ class Leetcode_587_erectFence: XCTestCase {
         var result: [[Int]]
         var expected: [[Int]]
         
+        result = solution.outerTrees([[0,0],[0,1],[0,2],[1,2],[2,2],[3,2],[3,1],[3,0],[2,0]])
+        expected = [[3,0],[3,2],[0,0],[1,2],[0,1],[0,2],[3,1],[2,0],[2,2]]
+        XCTAssertTrue(result.count == expected.count)
+        for elem in expected {
+            XCTAssertTrue(result.contains(elem))
+        }
+        
+        result = solution.outerTrees([[5,5],[4,8],[1,3],[5,9],[3,0],[0,4],[3,2],[8,9],[9,3]])
+        expected = [[3,0],[0,4],[4,8],[5,9],[8,9],[9,3]]
+        XCTAssertTrue(result.count == expected.count)
+        for elem in expected {
+            XCTAssertTrue(result.contains(elem))
+        }
+        
         result = solution.outerTrees([[3,3],[2,4],[2,2],[7,4],[3,4]])
         expected = [[2,2],[3,4],[7,4],[2,4]]
         XCTAssertTrue(result.count == expected.count)
@@ -65,22 +79,26 @@ private class Solution {
         
         // find origin
         var points = points
-        let origin = points.min { a, b in (a[0] < b[0])}
+        let origin = points.min { a, b in
+            (a[0] == b[0] ? a[1] < b[1] : a[0] < b[0])
+        }
         points = points.filter {$0 != origin}
         
         // create output
         outputArray.append(origin!)
         
         // sort points by slope
-        points.sort(by: { slope($0, origin!) < slope($1, origin!) })
+        points.sort(by: { slope($0, origin!) ==  slope($1, origin!) ?
+            ($0[1] == $1[1] ? $0[0] < $1[0] : $0[1] > $1[1])
+            : slope($0, origin!) < slope($1, origin!) })
         
         for p in points {
             outputArray.append(p)
-            while outputArray.count > 2 && cross(a: outputArray[outputArray.count-3], b: outputArray[outputArray.count-2], c: outputArray[outputArray.count-1]) < 0 {
-                outputArray.remove(at: outputArray.count-2)
+            while outputArray.count > 2 &&
+                cross(a: outputArray[outputArray.count-3], b: outputArray[outputArray.count-2], c: outputArray[outputArray.count-1]) < 0 {
+                    outputArray.remove(at: outputArray.count-2)
             }
         }
-        
         
         return outputArray
     }
@@ -94,6 +112,11 @@ private class Solution {
         
     }
 }
+
+// result:
+//Runtime: 424 ms, faster than 100.00% of Swift online submissions for Erect the Fence.
+//Memory Usage: 21.4 MB, less than 100.00% of Swift online submissions for Erect the Fence.
+
 
 /* codility
 public struct Point2D {
