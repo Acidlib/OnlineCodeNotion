@@ -18,7 +18,6 @@
 		5F31853F2378F1C000B473C1 /* Leetcode_587_R_erectFence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F31853E2378F1C000B473C1 /* Leetcode_587_R_erectFence.swift */; };
 		5F66614A238E34DB001A89F6 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F666149238E34DB001A89F6 /* Concurrency.swift */; };
 		5F66614D238F8F48001A89F6 /* G_strobogrammaticNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66614C238F8F48001A89F6 /* G_strobogrammaticNumber.swift */; };
-		5F66614F238F977A001A89F6 /* G_Reorder_array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66614E238F977A001A89F6 /* G_Reorder_array.swift */; };
 		5F666151238F9E86001A89F6 /* G_PhoneDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F666150238F9E86001A89F6 /* G_PhoneDirectory.swift */; };
 		5F666155238FA73C001A89F6 /* Leetcode_912_SortAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F666154238FA73C001A89F6 /* Leetcode_912_SortAnArray.swift */; };
 		5F666159239008CF001A89F6 /* G_280_WiggleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F666158239008CF001A89F6 /* G_280_WiggleSort.swift */; };
@@ -55,7 +54,6 @@
 		5F31853E2378F1C000B473C1 /* Leetcode_587_R_erectFence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_587_R_erectFence.swift; sourceTree = "<group>"; };
 		5F666149238E34DB001A89F6 /* Concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concurrency.swift; sourceTree = "<group>"; };
 		5F66614C238F8F48001A89F6 /* G_strobogrammaticNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_strobogrammaticNumber.swift; sourceTree = "<group>"; };
-		5F66614E238F977A001A89F6 /* G_Reorder_array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_Reorder_array.swift; sourceTree = "<group>"; };
 		5F666150238F9E86001A89F6 /* G_PhoneDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_PhoneDirectory.swift; sourceTree = "<group>"; };
 		5F666154238FA73C001A89F6 /* Leetcode_912_SortAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_912_SortAnArray.swift; sourceTree = "<group>"; };
 		5F666158239008CF001A89F6 /* G_280_WiggleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_280_WiggleSort.swift; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 				5F66614C238F8F48001A89F6 /* G_strobogrammaticNumber.swift */,
 				5F666158239008CF001A89F6 /* G_280_WiggleSort.swift */,
 				5F666150238F9E86001A89F6 /* G_PhoneDirectory.swift */,
-				5F66614E238F977A001A89F6 /* G_Reorder_array.swift */,
 			);
 			path = G_MockupTests;
 			sourceTree = "<group>";
@@ -290,7 +287,6 @@
 				5FA908CF237BD3E400D2FDEB /* SN_01.swift in Sources */,
 				5FA908CD237BC0AD00D2FDEB /* R_demotest_round1.swift in Sources */,
 				5F666155238FA73C001A89F6 /* Leetcode_912_SortAnArray.swift in Sources */,
-				5F66614F238F977A001A89F6 /* G_Reorder_array.swift in Sources */,
 				5F66614A238E34DB001A89F6 /* Concurrency.swift in Sources */,
 				5F3185312378584100B473C1 /* Leetcode_002_twoNumbers.swift in Sources */,
 				5F9AD7FC2371981800508290 /* HackerRank_Encryption.m in Sources */,
