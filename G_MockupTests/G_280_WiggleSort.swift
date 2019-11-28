@@ -29,7 +29,7 @@ class G_280_wiggleSort: XCTestCase {
 
 private class Solution {
     func wiggleSort(_ nums: inout [Int]) {
-        if nums.count == 1 { return }
+        if nums.count <= 1 { return }
         for i in 0..<nums.count-1 {
             if i%2 == 0 {
                 if nums[i] < nums[i+1] {
