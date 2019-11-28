@@ -23,13 +23,13 @@ class G_Reorder_array: XCTestCase {
     func testWiggleSort() {
         let solution = Solution()
         var nums = [3,5,2,1,6,4]
-        var result = solution.wiggleSort(&nums)
+        var result = solution.heapSort(&nums)
         XCTAssertTrue(nums == [1,2,3,4,5,6])
     }
 }
 
 private class Solution {
-    func wiggleSort(_ nums: inout [Int]) {
+    func heapSort(_ nums: inout [Int]) {
         let len = nums.count
         heapBuild(&nums,len)
         for newLen in stride(from: (len-1), to: 1, by: -1) {
