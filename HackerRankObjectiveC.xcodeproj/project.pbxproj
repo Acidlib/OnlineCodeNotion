@@ -102,11 +102,11 @@
 		5F66614B238F8F0B001A89F6 /* G_MockupTests */ = {
 			isa = PBXGroup;
 			children = (
+				5F66615C23912E14001A89F6 /* G_66_plusOne.swift */,
 				5F66615A2390F4E5001A89F6 /* G_375_GetMoneyAmout.swift */,
 				5F66615E23913630001A89F6 /* G_833_findReplaceString.swift */,
-				5F66615C23912E14001A89F6 /* G_66_plusOne.swift */,
-				5F66614C238F8F48001A89F6 /* G_strobogrammaticNumber.swift */,
 				5F666158239008CF001A89F6 /* G_280_WiggleSort.swift */,
+				5F66614C238F8F48001A89F6 /* G_strobogrammaticNumber.swift */,
 				5F666150238F9E86001A89F6 /* G_PhoneDirectory.swift */,
 			);
 			path = G_MockupTests;
@@ -115,15 +115,15 @@
 		5F666153238FA6E1001A89F6 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				5F3185242377E35E00B473C1 /* Leetcode_223_RectangleArea.swift */,
-				5F666154238FA73C001A89F6 /* Leetcode_912_SortAnArray.swift */,
-				5F3185262378003A00B473C1 /* Leetcode_060_PermutationSequence.swift */,
 				5F3185302378584100B473C1 /* Leetcode_002_twoNumbers.swift */,
 				5F3185322378807B00B473C1 /* Leetcode_003_Substring.swift */,
+				5F3185262378003A00B473C1 /* Leetcode_060_PermutationSequence.swift */,
+				5F3185242377E35E00B473C1 /* Leetcode_223_RectangleArea.swift */,
 				5F31853E2378F1C000B473C1 /* Leetcode_587_R_erectFence.swift */,
 				5F3185362378825500B473C1 /* Leetcode_683_bulbs.swift */,
 				5F318538237882EC00B473C1 /* Leetcode_701_insertBinaryTree.swift */,
 				5F66616223916B42001A89F6 /* Leetcode_731_MyCalendar_II.swift */,
+				5F666154238FA73C001A89F6 /* Leetcode_912_SortAnArray.swift */,
 				5F31853A237883A900B473C1 /* Leetcode_Demo_G_moutainArray.swift */,
 			);
 			path = Leetcode;
