@@ -24,6 +24,7 @@
 		5F66615B2390F4E5001A89F6 /* G_375_GetMoneyAmout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66615A2390F4E5001A89F6 /* G_375_GetMoneyAmout.swift */; };
 		5F66615D23912E14001A89F6 /* G_66_plusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66615C23912E14001A89F6 /* G_66_plusOne.swift */; };
 		5F66615F23913630001A89F6 /* G_833_findReplaceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66615E23913630001A89F6 /* G_833_findReplaceString.swift */; };
+		5F66616123916A89001A89F6 /* G_56_MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66616023916A89001A89F6 /* G_56_MergeIntervals.swift */; };
 		5F66616323916B42001A89F6 /* Leetcode_731_MyCalendar_II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66616223916B42001A89F6 /* Leetcode_731_MyCalendar_II.swift */; };
 		5F9AD7EB2371976100508290 /* HackerRankObjectiveC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9AD7E12371976000508290 /* HackerRankObjectiveC.framework */; };
 		5F9AD7F22371976100508290 /* HackerRankObjectiveC.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9AD7E42371976000508290 /* HackerRankObjectiveC.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -64,6 +65,7 @@
 		5F66615A2390F4E5001A89F6 /* G_375_GetMoneyAmout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_375_GetMoneyAmout.swift; sourceTree = "<group>"; };
 		5F66615C23912E14001A89F6 /* G_66_plusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_66_plusOne.swift; sourceTree = "<group>"; };
 		5F66615E23913630001A89F6 /* G_833_findReplaceString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_833_findReplaceString.swift; sourceTree = "<group>"; };
+		5F66616023916A89001A89F6 /* G_56_MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_56_MergeIntervals.swift; sourceTree = "<group>"; };
 		5F66616223916B42001A89F6 /* Leetcode_731_MyCalendar_II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Leetcode_731_MyCalendar_II.swift; path = Leetcode/Leetcode_731_MyCalendar_II.swift; sourceTree = SOURCE_ROOT; };
 		5F9AD7E12371976000508290 /* HackerRankObjectiveC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HackerRankObjectiveC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9AD7E42371976000508290 /* HackerRankObjectiveC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackerRankObjectiveC.h; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		5F66614B238F8F0B001A89F6 /* G_MockupTests */ = {
 			isa = PBXGroup;
 			children = (
+				5F66616023916A89001A89F6 /* G_56_MergeIntervals.swift */,
 				5F66615C23912E14001A89F6 /* G_66_plusOne.swift */,
 				5F66615A2390F4E5001A89F6 /* G_375_GetMoneyAmout.swift */,
 				5F66615E23913630001A89F6 /* G_833_findReplaceString.swift */,
@@ -308,6 +311,7 @@
 				5F66615D23912E14001A89F6 /* G_66_plusOne.swift in Sources */,
 				5F3185252377E35E00B473C1 /* Leetcode_223_RectangleArea.swift in Sources */,
 				5FA908D3237BE59900D2FDEB /* SN_02.swift in Sources */,
+				5F66616123916A89001A89F6 /* G_56_MergeIntervals.swift in Sources */,
 				5F66615F23913630001A89F6 /* G_833_findReplaceString.swift in Sources */,
 				5F3185272378003A00B473C1 /* Leetcode_060_PermutationSequence.swift in Sources */,
 				5F31853F2378F1C000B473C1 /* Leetcode_587_R_erectFence.swift in Sources */,
