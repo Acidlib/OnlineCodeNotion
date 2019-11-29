@@ -22,6 +22,7 @@
 		5F666155238FA73C001A89F6 /* Leetcode_912_SortAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F666154238FA73C001A89F6 /* Leetcode_912_SortAnArray.swift */; };
 		5F666159239008CF001A89F6 /* G_280_WiggleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F666158239008CF001A89F6 /* G_280_WiggleSort.swift */; };
 		5F66615B2390F4E5001A89F6 /* G_375_GetMoneyAmout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66615A2390F4E5001A89F6 /* G_375_GetMoneyAmout.swift */; };
+		5F66615D23912E14001A89F6 /* G_66_plusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66615C23912E14001A89F6 /* G_66_plusOne.swift */; };
 		5F9AD7EB2371976100508290 /* HackerRankObjectiveC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9AD7E12371976000508290 /* HackerRankObjectiveC.framework */; };
 		5F9AD7F22371976100508290 /* HackerRankObjectiveC.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9AD7E42371976000508290 /* HackerRankObjectiveC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F9AD7FC2371981800508290 /* HackerRank_Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD7FB2371981800508290 /* HackerRank_Encryption.m */; };
@@ -59,6 +60,7 @@
 		5F666154238FA73C001A89F6 /* Leetcode_912_SortAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_912_SortAnArray.swift; sourceTree = "<group>"; };
 		5F666158239008CF001A89F6 /* G_280_WiggleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_280_WiggleSort.swift; sourceTree = "<group>"; };
 		5F66615A2390F4E5001A89F6 /* G_375_GetMoneyAmout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_375_GetMoneyAmout.swift; sourceTree = "<group>"; };
+		5F66615C23912E14001A89F6 /* G_66_plusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_66_plusOne.swift; sourceTree = "<group>"; };
 		5F9AD7E12371976000508290 /* HackerRankObjectiveC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HackerRankObjectiveC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9AD7E42371976000508290 /* HackerRankObjectiveC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackerRankObjectiveC.h; sourceTree = "<group>"; };
 		5F9AD7E52371976000508290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				5F66615A2390F4E5001A89F6 /* G_375_GetMoneyAmout.swift */,
+				5F66615C23912E14001A89F6 /* G_66_plusOne.swift */,
 				5F66614C238F8F48001A89F6 /* G_strobogrammaticNumber.swift */,
 				5F666158239008CF001A89F6 /* G_280_WiggleSort.swift */,
 				5F666150238F9E86001A89F6 /* G_PhoneDirectory.swift */,
@@ -295,6 +298,7 @@
 				5F3185312378584100B473C1 /* Leetcode_002_twoNumbers.swift in Sources */,
 				5F9AD7FC2371981800508290 /* HackerRank_Encryption.m in Sources */,
 				5F31853B237883A900B473C1 /* Leetcode_Demo_G_moutainArray.swift in Sources */,
+				5F66615D23912E14001A89F6 /* G_66_plusOne.swift in Sources */,
 				5F3185252377E35E00B473C1 /* Leetcode_223_RectangleArea.swift in Sources */,
 				5FA908D3237BE59900D2FDEB /* SN_02.swift in Sources */,
 				5F3185272378003A00B473C1 /* Leetcode_060_PermutationSequence.swift in Sources */,
