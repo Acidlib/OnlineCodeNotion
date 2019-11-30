@@ -31,6 +31,8 @@ class G_66_plusOne: XCTestCase {
 
 }
 
+//Runtime: 16 ms, faster than 13.68% of Swift online submissions for Plus One.
+//Memory Usage: 21.7 MB, less than 20.00% of Swift online submissions for Plus One.
 private class Solution {
     func plusOne(_ digits: [Int]) -> [Int] {
         var output:[Int] = digits

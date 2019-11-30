@@ -25,6 +25,8 @@ class G_56_MergeIntervals: XCTestCase {
 
 }
 
+//Runtime: 92 ms, faster than 83.70% of Swift online submissions for Merge Intervals.
+//Memory Usage: 21.5 MB, less than 16.67% of Swift online submissions for Merge Intervals.
 private class Solution {
     func merge(_ intervals: [[Int]]) -> [[Int]] {
         if intervals.count == 0 { return intervals }

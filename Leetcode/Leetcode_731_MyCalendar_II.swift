@@ -34,6 +34,8 @@ class Leetcode_731_MyCalendar_II: XCTestCase {
 
 }
 
+//Runtime: 1120 ms, faster than 18.18% of Swift online submissions for My Calendar II.
+//Memory Usage: 21 MB, less than 100.00% of Swift online submissions for My Calendar II.
 private class MyCalendarTwo {
     var timeTable: [(start: Int, end: Int)] = []
     var doubleTable: [(start: Int, end: Int)] = []

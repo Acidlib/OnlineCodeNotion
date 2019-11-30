@@ -34,6 +34,8 @@ extension String {
     }
 }
 
+//Runtime: 28 ms, faster than 76.19% of Swift online submissions for Find And Replace in String.
+//Memory Usage: 21.2 MB, less than 100.00% of Swift online submissions for Find And Replace in String.
 private class Solution {
     func findReplaceString(_ S: String, _ indexes: [Int], _ sources: [String], _ targets: [String]) -> String {
         var array = S.compactMap({ return "\($0)" })
