@@ -21,12 +21,12 @@ class G_66_plusOne: XCTestCase {
     func testPlusOne() {
         // 9 -> 1, 0
         let solution = Solution()
-        var result = solution.plusOne([9, 9])
-        XCTAssertTrue(result == [1, 0, 0])
+        XCTAssertTrue(solution.plusOne([9, 9]) == [1, 0, 0])
+        XCTAssertTrue(solution.plusOne([9]) == [1,0])
         
-        result = solution.plusOne([9])
-        XCTAssertTrue(result == [1,0])
-        
+        let solutionBoost = SolutionBoost()
+        XCTAssertTrue(solutionBoost.plusOne([9, 9]) == [1, 0, 0])
+        XCTAssertTrue(solutionBoost.plusOne([9]) == [1,0])
     }
 
 }
@@ -52,6 +52,62 @@ private class Solution {
             if carry == 1 {
                 output.insert(1, at: 0)
             }
+            return output
+        }
+    }
+}
+
+// only do operation when value equals to 9
+//Runtime: 8 ms, faster than 75.87% of Swift online submissions for Plus One.
+//Memory Usage: 21.2 MB, less than 20.00% of Swift online submissions for Plus One.
+private class SolutionBoost {
+    func plusOne(_ digits: [Int]) -> [Int] {
+        return plusOne(digits.reversed(), at: 0).reversed()
+    }
+    
+    func plusOne(_ digits: [Int], at: Int) -> [Int] {
+        var output:[Int] = digits
+        let value = output[at]
+        if value == 9 {
+            output.remove(at: at)
+            output.insert(0, at: at)
+            if at == (digits.count - 1) {
+                output.append(1)
+                return output
+            }
+            return plusOne(output, at: at + 1)
+        } else {
+            let localValue = value + 1
+            output.remove(at: at)
+            output.insert(localValue, at: at)
+            return output
+        }
+    }
+}
+
+//Runtime: 8 ms, faster than 75.87% of Swift online submissions for Plus One.
+//Memory Usage: 20.8 MB, less than 20.00% of Swift online submissions for Plus One.
+//Runtime: 4 ms, faster than 98.01% of Swift online submissions for Plus One.
+//Memory Usage: 20.8 MB, less than 20.00% of Swift online submissions for Plus One.
+private class SolutionOptimize {
+    func plusOne(_ digits: [Int]) -> [Int] {
+        var output:[Int] = digits
+        let digit = output[digits.count - 1] + 1
+        if digit == 10 {
+            let carry = 1
+            for i in stride(from: digits.count-1, to: -1, by: -1) {
+                let digit = output[i] + carry
+                if digit == 10 {
+                    output[i] = 0
+                } else {
+                    output[i] = digit
+                    return output
+                }
+            }
+            output.insert(1, at: 0)
+            return output
+        } else {
+            output[digits.count - 1] += 1
             return output
         }
     }
