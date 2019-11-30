@@ -25,6 +25,8 @@ class G_375_GetMoneyAmout: XCTestCase {
 
 }
 
+//Runtime: 176 ms, faster than 18.75% of Swift online submissions for Guess Number Higher or Lower II.
+//Memory Usage: 22 MB, less than 100.00% of Swift online submissions for Guess Number Higher or Lower II.
 private class Solution {
     func getMoneyAmount(_ n: Int) -> Int {
         var payment: [[Int]] = []
