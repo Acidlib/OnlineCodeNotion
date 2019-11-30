@@ -128,3 +128,34 @@ private class SolutionBoost {
 //[0, 0, 0, 2, 3],
 //[0, 0, 0, 0, 3],
 //[0, 0, 0, 0, 0]]"
+
+
+//Runtime: 48 ms, faster than 81.25% of Swift online submissions for Guess Number Higher or Lower II.
+//Memory Usage: 20.7 MB, less than 100.00% of Swift online submissions for Guess Number Higher or Lower II.
+
+private class SolutionOptimize {
+    private var mat : [[Int?]] = []
+    func getMoneyAmount(_ n: Int) -> Int {
+        mat = Array(repeating: Array(repeating: nil, count: n + 1), count: n + 1)
+        return getMoneyAmountHelper(1, n);
+    }
+
+    private func getMoneyAmountHelper(_ start: Int, _ end: Int) -> Int {
+        if let amount = mat[start][end] {
+            return amount
+        }
+        
+        if start == end {
+            mat[start][end] = 0
+        } else if end - start == 1 {
+            mat[start][end] = start
+        } else {
+            var amount = Int.max
+            for middle in (start + end)/2..<end {
+                amount = min(amount, middle + max(getMoneyAmountHelper(start, middle - 1), getMoneyAmountHelper(middle + 1, end)))
+            }
+            mat[start][end] = amount
+        }
+        return mat[start][end]!
+    }
+}
