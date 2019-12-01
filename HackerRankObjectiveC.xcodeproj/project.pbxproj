@@ -26,6 +26,7 @@
 		5F66615F23913630001A89F6 /* G_833_findReplaceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66615E23913630001A89F6 /* G_833_findReplaceString.swift */; };
 		5F66616123916A89001A89F6 /* G_56_MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66616023916A89001A89F6 /* G_56_MergeIntervals.swift */; };
 		5F66616323916B42001A89F6 /* Leetcode_731_MyCalendar_II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66616223916B42001A89F6 /* Leetcode_731_MyCalendar_II.swift */; };
+		5F66616523940AD1001A89F6 /* OperationSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66616423940AD1001A89F6 /* OperationSamples.swift */; };
 		5F9AD7EB2371976100508290 /* HackerRankObjectiveC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9AD7E12371976000508290 /* HackerRankObjectiveC.framework */; };
 		5F9AD7F22371976100508290 /* HackerRankObjectiveC.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9AD7E42371976000508290 /* HackerRankObjectiveC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F9AD7FC2371981800508290 /* HackerRank_Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AD7FB2371981800508290 /* HackerRank_Encryption.m */; };
@@ -67,6 +68,7 @@
 		5F66615E23913630001A89F6 /* G_833_findReplaceString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_833_findReplaceString.swift; sourceTree = "<group>"; };
 		5F66616023916A89001A89F6 /* G_56_MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_56_MergeIntervals.swift; sourceTree = "<group>"; };
 		5F66616223916B42001A89F6 /* Leetcode_731_MyCalendar_II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Leetcode_731_MyCalendar_II.swift; path = Leetcode/Leetcode_731_MyCalendar_II.swift; sourceTree = SOURCE_ROOT; };
+		5F66616423940AD1001A89F6 /* OperationSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationSamples.swift; sourceTree = "<group>"; };
 		5F9AD7E12371976000508290 /* HackerRankObjectiveC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HackerRankObjectiveC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9AD7E42371976000508290 /* HackerRankObjectiveC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackerRankObjectiveC.h; sourceTree = "<group>"; };
 		5F9AD7E52371976000508290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 		5F9AD7EE2371976100508290 /* HackerRankObjectiveCTests */ = {
 			isa = PBXGroup;
 			children = (
+				5F66616423940AD1001A89F6 /* OperationSamples.swift */,
 				5F666149238E34DB001A89F6 /* Concurrency.swift */,
 				5FA908CE237BD3E400D2FDEB /* SN_01.swift */,
 				5FA908D2237BE59900D2FDEB /* SN_02.swift */,
@@ -313,6 +316,7 @@
 				5FA908D3237BE59900D2FDEB /* SN_02.swift in Sources */,
 				5F66616123916A89001A89F6 /* G_56_MergeIntervals.swift in Sources */,
 				5F66615F23913630001A89F6 /* G_833_findReplaceString.swift in Sources */,
+				5F66616523940AD1001A89F6 /* OperationSamples.swift in Sources */,
 				5F3185272378003A00B473C1 /* Leetcode_060_PermutationSequence.swift in Sources */,
 				5F31853F2378F1C000B473C1 /* Leetcode_587_R_erectFence.swift in Sources */,
 				5F9AD8022373082C00508290 /* Codility_CountSemiprimes.m in Sources */,
