@@ -23,6 +23,9 @@ class G_375_GetMoneyAmout: XCTestCase {
         
         let soutionBoost = SolutionBoost()
         XCTAssertTrue(soutionBoost.getMoneyAmount(4) == 4)
+        
+        let soutionOptimize = SolutionOptimize()
+        XCTAssertTrue(soutionOptimize.getMoneyAmount(4) == 4)
     }
 }
 
