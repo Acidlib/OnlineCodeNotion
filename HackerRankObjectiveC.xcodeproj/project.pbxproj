@@ -38,6 +38,9 @@
 		5FA908D3237BE59900D2FDEB /* SN_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA908D2237BE59900D2FDEB /* SN_02.swift */; };
 		5FB6214D239FDD5A009EEC05 /* G_278_First_Bad_Version.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FB6214C239FDD5A009EEC05 /* G_278_First_Bad_Version.mm */; };
 		5FB6214F239FDDF6009EEC05 /* G_1146_Snapshot_array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB6214E239FDDF6009EEC05 /* G_1146_Snapshot_array.swift */; };
+		5FBF3A3A23B989E3001954FE /* G_844_BackspaceCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF3A3923B989E3001954FE /* G_844_BackspaceCompare.swift */; };
+		5FBF3A3C23B98C71001954FE /* G_222_CountNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF3A3B23B98C71001954FE /* G_222_CountNodes.swift */; };
+		5FBF3A3E23B991FA001954FE /* G_562_LongestLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF3A3D23B991FA001954FE /* G_562_LongestLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +89,9 @@
 		5FA908D2237BE59900D2FDEB /* SN_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SN_02.swift; sourceTree = "<group>"; };
 		5FB6214C239FDD5A009EEC05 /* G_278_First_Bad_Version.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = G_278_First_Bad_Version.mm; sourceTree = "<group>"; };
 		5FB6214E239FDDF6009EEC05 /* G_1146_Snapshot_array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_1146_Snapshot_array.swift; sourceTree = "<group>"; };
+		5FBF3A3923B989E3001954FE /* G_844_BackspaceCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_844_BackspaceCompare.swift; sourceTree = "<group>"; };
+		5FBF3A3B23B98C71001954FE /* G_222_CountNodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_222_CountNodes.swift; sourceTree = "<group>"; };
+		5FBF3A3D23B991FA001954FE /* G_562_LongestLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_562_LongestLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,9 @@
 				5F666158239008CF001A89F6 /* G_280_WiggleSort.swift */,
 				5F66614C238F8F48001A89F6 /* G_strobogrammaticNumber.swift */,
 				5F666150238F9E86001A89F6 /* G_PhoneDirectory.swift */,
+				5FBF3A3923B989E3001954FE /* G_844_BackspaceCompare.swift */,
+				5FBF3A3B23B98C71001954FE /* G_222_CountNodes.swift */,
+				5FBF3A3D23B991FA001954FE /* G_562_LongestLine.swift */,
 			);
 			path = G_MockupTests;
 			sourceTree = "<group>";
@@ -316,6 +325,7 @@
 				5F3185312378584100B473C1 /* Leetcode_002_twoNumbers.swift in Sources */,
 				5F66616323916B42001A89F6 /* Leetcode_731_MyCalendar_II.swift in Sources */,
 				5F9AD7FC2371981800508290 /* HackerRank_Encryption.m in Sources */,
+				5FBF3A3A23B989E3001954FE /* G_844_BackspaceCompare.swift in Sources */,
 				5F31853B237883A900B473C1 /* Leetcode_Demo_G_moutainArray.swift in Sources */,
 				5F66615D23912E14001A89F6 /* G_66_plusOne.swift in Sources */,
 				5F3185252377E35E00B473C1 /* Leetcode_223_RectangleArea.swift in Sources */,
@@ -324,8 +334,10 @@
 				5FB6214D239FDD5A009EEC05 /* G_278_First_Bad_Version.mm in Sources */,
 				5F66615F23913630001A89F6 /* G_833_findReplaceString.swift in Sources */,
 				5F66616523940AD1001A89F6 /* OperationSamples.swift in Sources */,
+				5FBF3A3C23B98C71001954FE /* G_222_CountNodes.swift in Sources */,
 				5F3185272378003A00B473C1 /* Leetcode_060_PermutationSequence.swift in Sources */,
 				5F31853F2378F1C000B473C1 /* Leetcode_587_R_erectFence.swift in Sources */,
+				5FBF3A3E23B991FA001954FE /* G_562_LongestLine.swift in Sources */,
 				5F9AD8022373082C00508290 /* Codility_CountSemiprimes.m in Sources */,
 				5F3185332378807B00B473C1 /* Leetcode_003_Substring.swift in Sources */,
 				5F9AD805237406E800508290 /* Codility_SemiPrimesSwift.swift in Sources */,
