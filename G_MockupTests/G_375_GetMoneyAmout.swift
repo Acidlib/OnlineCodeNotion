@@ -75,18 +75,8 @@ private class SolutionBoost {
     func getMoneyAmount(_ n: Int) -> Int {
         if n < 2 {
             return 0
-        }
-        var dp: [[Int]] = []
-        for i in 0...n {
-            dp.append([])
-            for j in 0...n {
-                dp[i].append(0)
-            }
-        }
-        
-        for i in 0...n {
-            dp[i][i] = 0
-        }
+        }        
+        var dp = [[Int]](repeating: [Int](repeating: 0, count: n+1), count: n+1)
         for offset in 1..<n {
             for i in 1...n-offset {
                 let j = i + offset

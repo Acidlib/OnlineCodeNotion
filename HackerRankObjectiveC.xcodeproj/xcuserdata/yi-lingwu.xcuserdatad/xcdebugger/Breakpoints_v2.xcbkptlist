@@ -629,22 +629,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "33CA5A7A-C767-423F-AED0-5D13D87FAB7F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "G_MockupTests/G_844_BackspaceCompare.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "114"
-            endingLineNumber = "114"
-            landmarkName = "popLastElement(stack:popQueue:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "86975A3C-B3CF-4280-8BF5-33FE8CD4B212"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -652,25 +636,9 @@
             filePath = "G_MockupTests/G_844_BackspaceCompare.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
             landmarkName = "backspaceCompare510(_:_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "AB9476A5-65C8-425A-BA05-3BDDD2571C8F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "G_MockupTests/G_844_BackspaceCompare.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
-            landmarkName = "popLastElement(stack:popQueue:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

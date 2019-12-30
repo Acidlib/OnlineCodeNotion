@@ -18,10 +18,9 @@ class Leetcode_701_insertBinaryTree: XCTestCase {
 
     func testcases() {
         //[4,2,7,1,3]
-        var node1 = TreeNode(4)
+        let node1 = TreeNode(4)
         node1.left = TreeNode(2)
         node1.right = TreeNode(7)
-
 
         let solution = Solution()
         let _ = solution.insertIntoBST(node1, 5)

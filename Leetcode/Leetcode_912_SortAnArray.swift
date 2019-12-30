@@ -18,8 +18,8 @@ class Leetcode_912_SortAnArray: XCTestCase {
     
     func testQuickSort() {
         let solutionQuick = SolutionQuickSort()
-        var array = [1,2,5,4,6,7,9,8,3]
-        var result = solutionQuick.sortArray(array)
+        let array = [1,2,5,4,6,7,9,8,3]
+        let result = solutionQuick.sortArray(array)
         XCTAssertTrue(result[0] == 1)
         XCTAssertTrue(result[1] == 2)
         XCTAssertTrue(result[2] == 3)
@@ -28,7 +28,7 @@ class Leetcode_912_SortAnArray: XCTestCase {
     }
     
     func testMergeSort() {
-        var solution2 = SolutionMergeSort()
+        let solution2 = SolutionMergeSort()
         let array = [5,2,3,1,4,6,9,8,7]
         let result = solution2.sortArray(array)
         XCTAssertTrue(result[0] == 1)
@@ -207,9 +207,8 @@ private class SolutionQuickSort {
     func quickSort(_ listToSort: inout [Int], _ low: Int, _ high: Int) -> [Int] {
         if low >= high { return listToSort }
         let pivot = partition(&listToSort, low, high)
-        quickSort(&listToSort, low, pivot - 1)
-        quickSort(&listToSort, pivot + 1, high)
-        print("")
+        _ = quickSort(&listToSort, low, pivot - 1)
+        _ = quickSort(&listToSort, pivot + 1, high)
         return listToSort
     }
     
