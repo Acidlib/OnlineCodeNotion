@@ -17,17 +17,19 @@ class G_844_BackspaceCompare: XCTestCase {
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
+    
+    func testMethod2() {
+        let solution = Solution()
+        var result = false
+        
+        result = solution.backspaceCompare510("ab#c", "ad#c")
+        XCTAssert(result == true)
+        
+        result = solution.backspaceCompare510("ab##", "c#d#")
+        XCTAssert(result == true)
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+        result = solution.backspaceCompare510("a##c", "#a#c")
+        XCTAssert(result == true)
     }
 
 }
@@ -78,44 +80,39 @@ private class Solution {
         return true
     }
     
+//    Runtime: 8 ms, faster than 72.73% of Swift online submissions for Backspace String Compare.
+//    Memory Usage: 21 MB, less than 100.00% of Swift online submissions for Backspace String Compare.
     func backspaceCompare510(_ S: String, _ T: String) -> Bool {
-        let S = Array(S.compactMap({return $0}))
-        let T = Array(T.compactMap({return $0}))
-        var sSkip = 0
-        var tSkip = 0
-        var sPtr = S.count - 1
-        var tPtr = T.count - 1
+        var S = Array(S.compactMap({return $0}))
+        var T = Array(T.compactMap({return $0}))
         
-        while sPtr >= 0 || tPtr >= 0 {
-            while  sPtr >= 0 && (S[sPtr] == "#" || sSkip != 0) {
-                if S[sPtr] == "#"{
-                    sSkip += 1
-                } else {
-                    sSkip -= 1
-                }
-                sPtr -= 1
-            }
-            
-            while  tPtr >= 0 && (T[tPtr] == "#" || tSkip != 0) {
-                if T[tPtr] == "#"{
-                    tSkip += 1
-                } else {
-                    tSkip -= 1
-                }
-                tPtr -= 1
-            }
-            
-            if tPtr >= 0 && sPtr >= 0{
-                if T[tPtr] != S[sPtr]{
-                    return false
-                }
-            } else if !(tPtr < 0 && sPtr < 0) {
+        var sCount = 0
+        var tCount = 0
+        
+        while S.count > 0 || T.count > 0 {
+            let s = popLastElement(stack: &S, popQueue: &sCount).0
+            let t = popLastElement(stack: &T, popQueue: &tCount).0
+            if s != t {
                 return false
             }
-            
-            sPtr -= 1
-            tPtr -= 1
         }
         return true
+    }
+    
+    func popLastElement(stack: inout [Character], popQueue: inout Int) -> (Character, Int) {
+        if let s: Character = stack.popLast() {
+            if s == "#" {
+                popQueue += 1
+                return popLastElement(stack: &stack, popQueue: &popQueue)
+            } else {
+                if popQueue > 0 {
+                    popQueue -= 1
+                    return popLastElement(stack: &stack, popQueue: &popQueue)
+                } else {
+                    return (s, 0)
+                }
+            }
+        }
+        return (Character(" "), popQueue)
     }
 }
